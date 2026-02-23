@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dolawat - Movie UI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="logo">dolawat</div>
+    <ul>
+        <li>หน้าแรก</li>
+        <li>มาแรง</li>
+        <li>มาใหม่</li>
+        <li>รายการของฉัน</li>
+    </ul>
+    <button id="darkModeToggle" class="dark-btn">🌙</button>
+</nav>
+
+<div class="hero">
+    <div class="hero-content">
+        <span class="badge">อันดับ 1 ในตอนนี้</span>
+        <h1>Dead Point</h1>
+        <p>ซีรีส์แนวเอาชีวิตรอดสุดระทึก</p>
+        <div class="buttons">
+            <button class="btn btn-primary">▶ เล่น</button>
+            <button class="btn btn-secondary">รายละเอียด</button>
+        </div>
+    </div>
+</div>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="🔍 ค้นหาหนัง...">
+</div>
+<section>
+    <h2 class="section-title">มาแรงวันนี้</h2>
+    <div class="gallery">
+        <div class="card">
+            <img src="pexels-artem-krapivin-2149275329-30560799.jpg">
+            <div class="card-info">
+                <h4>Dark Cyber</h4>
+                <small>Action • 2026</small>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="pexels-slaytinaaaa-9351729.jpg">
+            <div class="card-info">
+                <h4>The Shadow Knife</h4>
+                <small>Thriller • 2025</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">เกี่ยวกับเว็บไซต์</h2>
+    <div class="content-cards">
+        <div class="info-box">
+            <h3>Responsive Design</h3>
+            <p>รองรับมือถือ แท็บเล็ต และเดสก์ท็อป</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Modern Layout</h3>
+            <p>ใช้ CSS Grid และ Flexbox</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Interactive UI</h3>
+            <p>มี Dark Mode และ Back To Top</p>
+        </div>
+    </div>
+</section>
+
+<button id="backToTop">↑</button>
+
+<footer>
+    <p>© 2026 dolawat | ICT Assignment</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
